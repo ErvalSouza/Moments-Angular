@@ -1,0 +1,7 @@
+<div class="momentEdit" *ngIf="moment">
+<h2>Editando o momento <span>{{moment.title}}</span>!</h2>
+
+<p>Minha Foto Atual</p>
+<img src="{{baseApiUrl}}uploads/{{moment.image}}" alt="{{moment.title}}" class="imgEdit">
+<app-moment-form [momentData]="moment" [btnText]="btnText"></app-moment-form>
+</div>

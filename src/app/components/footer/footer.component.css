@@ -4,7 +4,8 @@ footer{
     border-top: 1px solid #dec129;
     align-items: center;
     justify-content: center;
-   height: 200px;
+   height: 180px;
+   margin-top: 10px;
 }
 
 footer h3{
